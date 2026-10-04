@@ -1,0 +1,42 @@
+{
+  "scope": "router-only batch evaluation; excludes language-model generation, tools, networking, and serving overhead",
+  "split": "ood_test",
+  "n_items": 912,
+  "methods": {
+    "naive": {
+      "success_rate": 0.3684210526315789,
+      "recovery_on_naive_failures": 0.0,
+      "median_us_per_item": 0.43735032894736847,
+      "p95_us_per_item": 0.5656203399122807,
+      "external_api_cost_usd": 0.0
+    },
+    "firewall": {
+      "success_rate": 0.5263157894736842,
+      "recovery_on_naive_failures": 0.6666666666666666,
+      "median_us_per_item": 0.41924177631578946,
+      "p95_us_per_item": 0.517815899122807,
+      "external_api_cost_usd": 0.0
+    },
+    "provenance_only": {
+      "success_rate": 0.6842105263157895,
+      "recovery_on_naive_failures": 0.5833333333333334,
+      "median_us_per_item": 0.6482171052631579,
+      "p95_us_per_item": 0.7645829495614035,
+      "external_api_cost_usd": 0.0
+    },
+    "learned_plp": {
+      "success_rate": 0.8421052631578947,
+      "recovery_on_naive_failures": 0.9166666666666666,
+      "median_us_per_item": 32.505875,
+      "p95_us_per_item": 34.475668695175436,
+      "external_api_cost_usd": 0.0
+    },
+    "hybrid_plp": {
+      "success_rate": 0.9473684210526315,
+      "recovery_on_naive_failures": 1.0,
+      "median_us_per_item": 32.95835855263158,
+      "p95_us_per_item": 37.04505942982456,
+      "external_api_cost_usd": 0.0
+    }
+  }
+}

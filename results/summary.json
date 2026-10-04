@@ -1,0 +1,206 @@
+{
+  "generic": {
+    "overall": {
+      "mean": 0.7819,
+      "ci95": [
+        0.7749,
+        0.7893
+      ]
+    },
+    "personalization": {
+      "mean": 0.3796,
+      "ci95": [
+        0.3421,
+        0.4215
+      ]
+    },
+    "truthfulness": {
+      "mean": 0.9168,
+      "ci95": [
+        0.9121,
+        0.9218
+      ]
+    },
+    "sycophancy": {
+      "mean": 0.04,
+      "ci95": [
+        0.04,
+        0.04
+      ]
+    },
+    "calibration": {
+      "mean": 0.9041,
+      "ci95": [
+        0.8969,
+        0.9114
+      ]
+    },
+    "emotional_appropriateness": {
+      "mean": 0.7831,
+      "ci95": [
+        0.7701,
+        0.7977
+      ]
+    },
+    "personality_consistency": {
+      "mean": 0.862,
+      "ci95": [
+        0.8605,
+        0.864
+      ]
+    }
+  },
+  "naive_personalized": {
+    "overall": {
+      "mean": 0.8035,
+      "ci95": [
+        0.7822,
+        0.8238
+      ]
+    },
+    "personalization": {
+      "mean": 0.8008,
+      "ci95": [
+        0.7811,
+        0.8179
+      ]
+    },
+    "truthfulness": {
+      "mean": 0.7855,
+      "ci95": [
+        0.747,
+        0.8233
+      ]
+    },
+    "sycophancy": {
+      "mean": 0.2171,
+      "ci95": [
+        0.1673,
+        0.2725
+      ]
+    },
+    "calibration": {
+      "mean": 0.8543,
+      "ci95": [
+        0.8295,
+        0.8757
+      ]
+    },
+    "emotional_appropriateness": {
+      "mean": 0.7743,
+      "ci95": [
+        0.7603,
+        0.7905
+      ]
+    },
+    "personality_consistency": {
+      "mean": 0.862,
+      "ci95": [
+        0.8605,
+        0.864
+      ]
+    }
+  },
+  "behavior_trained_proxy": {
+    "overall": {
+      "mean": 0.8799,
+      "ci95": [
+        0.8753,
+        0.8844
+      ]
+    },
+    "personalization": {
+      "mean": 0.825,
+      "ci95": [
+        0.8026,
+        0.8443
+      ]
+    },
+    "truthfulness": {
+      "mean": 0.9168,
+      "ci95": [
+        0.9121,
+        0.9218
+      ]
+    },
+    "sycophancy": {
+      "mean": 0.04,
+      "ci95": [
+        0.04,
+        0.04
+      ]
+    },
+    "calibration": {
+      "mean": 0.9041,
+      "ci95": [
+        0.8969,
+        0.9114
+      ]
+    },
+    "emotional_appropriateness": {
+      "mean": 0.7831,
+      "ci95": [
+        0.7701,
+        0.7977
+      ]
+    },
+    "personality_consistency": {
+      "mean": 0.862,
+      "ci95": [
+        0.8605,
+        0.864
+      ]
+    }
+  },
+  "cgsp": {
+    "overall": {
+      "mean": 0.8791,
+      "ci95": [
+        0.8744,
+        0.8837
+      ]
+    },
+    "personalization": {
+      "mean": 0.8215,
+      "ci95": [
+        0.7984,
+        0.8404
+      ]
+    },
+    "truthfulness": {
+      "mean": 0.9168,
+      "ci95": [
+        0.9121,
+        0.9218
+      ]
+    },
+    "sycophancy": {
+      "mean": 0.04,
+      "ci95": [
+        0.04,
+        0.04
+      ]
+    },
+    "calibration": {
+      "mean": 0.9041,
+      "ci95": [
+        0.8969,
+        0.9114
+      ]
+    },
+    "emotional_appropriateness": {
+      "mean": 0.7831,
+      "ci95": [
+        0.7701,
+        0.7977
+      ]
+    },
+    "personality_consistency": {
+      "mean": 0.862,
+      "ci95": [
+        0.8605,
+        0.864
+      ]
+    }
+  }
+}

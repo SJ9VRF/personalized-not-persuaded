@@ -1,0 +1,8 @@
+{
+  "design": "Balanced failure corrections with stability anchors to reduce regression risk.",
+  "intended_use": "SFT/preference-data seed for a real post-training experiment; not evidence that training has been run.",
+  "n_failure_corrections": 392,
+  "n_stability_anchors": 392,
+  "n_total": 784,
+  "seed": 17
+}

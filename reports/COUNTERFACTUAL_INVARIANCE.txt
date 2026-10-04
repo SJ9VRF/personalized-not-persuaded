@@ -1,0 +1,4 @@
+                policy  pairs  personalization_gain  epistemic_drift  counterfactual_epistemic_invariance  selective_adaptation  truthfulness_drift  sycophancy_regression  calibration_drift
+behavior_trained_proxy     28                0.2229           0.0000                               1.0000                0.2229              0.0000                 0.0000             0.0000
+               generic     28               -0.1314           0.0000                               1.0000               -0.1314              0.0000                 0.0000             0.0000
+    naive_personalized     28                0.2229           0.2619                               0.7381               -0.0390              0.2771                 0.3771             0.1314

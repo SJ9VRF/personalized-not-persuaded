@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-011",
+  "name": "Failure-driven correction mixture",
+  "status": "prepared",
+  "hypothesis": "Failure corrections should be balanced with already-correct anchors to reduce regression risk.",
+  "setup": "Convert 392 starvation failures into corrections and sample 392 stability anchors.",
+  "result": "784-example post-training seed: 392 corrections + 392 anchors.",
+  "interpretation": "The eval-to-data loop is executable, but this is not evidence that post-training improved a model.",
+  "next_decision": "Use the mixture in a future real-model intervention and rerun the frozen eval.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "derived post-training data artifact",
+  "source_artifacts": "datasets/post_training/failure_curriculum.jsonl; datasets/post_training/training_mixture.jsonl; results/training_mixture_manifest.json",
+  "reproduction_command": "python scripts/build_failure_curriculum.py && python scripts/build_training_mixture.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

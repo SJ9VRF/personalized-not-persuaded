@@ -1,0 +1,9 @@
+{
+  "failure_counts": {
+    "evidence:starvation": 392
+  },
+  "high_priority_ge_6": 200,
+  "n_examples": 392,
+  "note": "This is a training-data curriculum artifact, not evidence that post-training was run.",
+  "source": "Hybrid PLP errors on frozen ProvenanceBench predictions"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-010",
+  "name": "Trial-level failure mining",
+  "status": "diagnostic",
+  "hypothesis": "Remaining Hybrid PLP failures will include both unsupported leakage and starvation.",
+  "setup": "Run the frozen task/trial/grader evaluation over 2,600 trials and mine failed state verification.",
+  "result": "392 licensing failures; all 392 are classified as evidence starvation in the current run.",
+  "interpretation": "The hybrid method has become conservative rather than permissive.",
+  "next_decision": "Target missed valid evidence in the next data intervention.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "trial/state-verification run",
+  "source_artifacts": "results/trial_eval_summary.json; results/trial_trajectories.jsonl; results/provenancebench_errors.csv",
+  "reproduction_command": "python scripts/run_trial_eval.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-002",
+  "name": "Fixed firewall",
+  "status": "rejected",
+  "hypothesis": "Blocking personal context from the evidence channel should prevent contamination while remaining useful.",
+  "setup": "Evaluate a fixed firewall on the same frozen splits.",
+  "result": "Domain-OOD exact=0.526, leakage=0.000, evidence uptake=0.000 (N=912).",
+  "interpretation": "Leakage was replaced by evidence starvation.",
+  "next_decision": "Retain only as a diagnostic baseline; allow task-conditioned legitimate evidence.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "canonical benchmark result",
+  "source_artifacts": "results/provenancebench_method_summary.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

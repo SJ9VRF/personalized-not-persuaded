@@ -1,0 +1,10 @@
+{
+  "reward_regression_mae": 0.015560662828083573,
+  "pairwise_preference_accuracy": 1.0,
+  "pairwise_preference_auc": 1.0,
+  "n_candidates": 636,
+  "n_pairs": 184,
+  "reward_train_scenarios": 127,
+  "reward_test_scenarios": 32,
+  "note": "Reward model consumes response text + scenario metadata. Pairwise model consumes only differences in auditable lexical cues + metadata; no rubric component scores are used as features."
+}

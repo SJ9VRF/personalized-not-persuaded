@@ -1,0 +1,20 @@
+{
+  "presentation_license": {
+    "threshold": 0.49999999999999994,
+    "val_accuracy": 1.0,
+    "val_brier": 2.372108529421963e-05,
+    "val_auc": 1.0
+  },
+  "personalization_license": {
+    "threshold": 0.49999999999999994,
+    "val_accuracy": 1.0,
+    "val_brier": 0.0001064977597712574,
+    "val_auc": 1.0
+  },
+  "evidence_license": {
+    "threshold": 0.49999999999999994,
+    "val_accuracy": 1.0,
+    "val_brier": 0.0002237658754356728,
+    "val_auc": 1.0
+  }
+}

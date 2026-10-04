@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "hybrid_id_exact",
+      "observed": 1.0,
+      "passed": true,
+      "requirement": ">=0.95"
+    },
+    {
+      "name": "hybrid_ood_exact",
+      "observed": 0.9473684210526316,
+      "passed": true,
+      "requirement": ">=0.90"
+    },
+    {
+      "name": "hybrid_compositional_exact",
+      "observed": 0.8,
+      "passed": true,
+      "requirement": ">=0.75"
+    },
+    {
+      "name": "hybrid_ood_unsupported_leakage",
+      "observed": 0.0,
+      "passed": true,
+      "requirement": "<=0.02"
+    },
+    {
+      "name": "hybrid_ood_evidence_uptake",
+      "observed": 0.8,
+      "passed": true,
+      "requirement": ">=0.75"
+    },
+    {
+      "name": "trial_weighted_state_score",
+      "observed": 0.9246153846153846,
+      "passed": true,
+      "requirement": ">=0.90"
+    }
+  ],
+  "gate": "research_candidate",
+  "passed": true,
+  "scope": "Controlled licensing research gate only. Not a production launch approval."
+}

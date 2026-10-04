@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-007",
+  "name": "Calibration under shift",
+  "status": "diagnostic",
+  "hypothesis": "If the evidence head generalizes, confidence should remain calibrated under shift.",
+  "setup": "Measure evidence-head ECE on ID, domain-OOD, compositional, and provenance-intervention splits.",
+  "result": "ECE: 0.011 ID, 0.157 domain-OOD, 0.486 compositional, 0.253 provenance intervention.",
+  "interpretation": "Confidence degrades sharply under the same shifts that hurt standing decisions.",
+  "next_decision": "Report calibration beside exact match.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "calibration diagnostic",
+  "source_artifacts": "results/provenancebench_calibration.csv; results/provenancebench_strict_stats.csv",
+  "reproduction_command": "python scripts/provenancebench_strict_stats.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

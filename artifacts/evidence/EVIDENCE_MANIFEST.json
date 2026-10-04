@@ -1,0 +1,23 @@
+{
+  "generated_by": "scripts/build_evidence_layer.py",
+  "source_files": [
+    "results/failure_curriculum_summary.json",
+    "results/homepage_trial_examples.json",
+    "results/launch_gate.json",
+    "results/provenancebench_calibration.csv",
+    "results/provenancebench_errors.csv",
+    "results/provenancebench_method_summary.csv",
+    "results/provenancebench_multiseed.csv",
+    "results/provenancebench_strict_stats.csv",
+    "results/training_mixture_manifest.json",
+    "results/trial_eval_summary.json",
+    "results/trial_trajectories.jsonl"
+  ],
+  "experiment_count": 12,
+  "rejected_or_revised_logged_experiments": 3,
+  "failed_or_revised_research_ideas_documented": 6,
+  "material_decisions_documented": 8,
+  "unexpected_findings_documented": 5,
+  "multiseed_rows": 80,
+  "representative_failure_rows": 80
+}

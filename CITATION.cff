@@ -1,0 +1,18 @@
+cff-version: 1.3.0
+title: "Personalized, Not Persuaded: Learning When Personal Context Counts as Evidence"
+message: "If you use this research testbed, please cite this software artifact."
+type: software
+authors:
+  - family-names: "Yavary"
+    given-names: "Aura"
+version: 1.0.0
+abstract: "A reproducible research testbed for provenance-licensed personalization: deciding when user signals may affect presentation, personalization, or the evidentiary state of an answer while measuring unsupported influence leakage and evidence starvation."
+license: MIT
+keywords:
+  - personalization
+  - counterfactual evaluation
+  - sycophancy
+  - epistemic invariance
+  - model behavior
+  - reward modeling
+  - post-training

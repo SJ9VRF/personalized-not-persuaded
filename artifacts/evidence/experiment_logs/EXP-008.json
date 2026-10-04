@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-008",
+  "name": "Multi-seed stability",
+  "status": "diagnostic",
+  "hypothesis": "The compositional failure may mainly reflect optimizer/initialization variance.",
+  "setup": "Retrain/evaluate Learned and Hybrid PLP across seeds 0-9.",
+  "result": "The same split-specific metrics repeated across all 10 seeds in the current linear-router setup.",
+  "interpretation": "The dominant failure is structural in the representation/split, not a cherry-pickable seed.",
+  "next_decision": "Improve interventions/data rather than search for a favorable seed.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "multi-seed stability diagnostic",
+  "source_artifacts": "results/provenancebench_multiseed.csv",
+  "reproduction_command": "python scripts/provenancebench_multiseed.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

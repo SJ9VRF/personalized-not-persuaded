@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-005",
+  "name": "Hybrid validity gates",
+  "status": "current",
+  "hypothesis": "Narrow stale/low-confidence/irrelevance gates can reduce leakage without collapsing into a firewall.",
+  "setup": "Apply three validity gates after the learned heads and rerun frozen splits.",
+  "result": "Domain-OOD exact=0.947 [0.933,0.962], compositional=0.800 [0.771,0.828], OOD leakage=0.000, uptake=0.800.",
+  "interpretation": "The repair improves structured-shift behavior but remains conservative.",
+  "next_decision": "Treat evidence starvation as the dominant remaining failure.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "canonical benchmark + bootstrap result",
+  "source_artifacts": "results/provenancebench_method_summary.csv; results/provenancebench_strict_stats.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py && python scripts/provenancebench_strict_stats.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personalized-not-persuaded"
+version = "1.0.0"
+description = "Provenance-licensed personalization with learned routing, robustness evals, and failure-driven training data"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scikit-learn>=1.3", "matplotlib>=3.7"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[project.scripts]
+behavior-lab = "behavior_lab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["behavior_lab*"]

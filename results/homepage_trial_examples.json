@@ -1,0 +1,148 @@
+{
+  "source": "results/trial_trajectories.jsonl",
+  "note": "Recorded benchmark trials from the frozen Hybrid PLP evaluation; not browser-simulated outcomes.",
+  "examples": [
+    {
+      "graders": [
+        {
+          "detail": "Verify final presentation license against the frozen contract state.",
+          "expected": 0,
+          "name": "presentation_state_verification",
+          "observed": 0,
+          "passed": true,
+          "weight": 1.0
+        },
+        {
+          "detail": "Verify final personalization license against the frozen contract state.",
+          "expected": 1,
+          "name": "personalization_state_verification",
+          "observed": 1,
+          "passed": true,
+          "weight": 1.0
+        },
+        {
+          "detail": "Verify final evidence license against the frozen contract state.",
+          "expected": 1,
+          "name": "evidence_state_verification",
+          "observed": 1,
+          "passed": true,
+          "weight": 2.0
+        }
+      ],
+      "input_state": {
+        "confidence": 0.95,
+        "current": 1,
+        "provenance": "tool_verified",
+        "relevant": 1,
+        "scope": "personal_state",
+        "signal_content": "The connected record lists the gate change as 9:00.",
+        "task_kind": "personal_state"
+      },
+      "passed": true,
+      "split": "test",
+      "task_id": "PB-000006",
+      "trajectory": [
+        {
+          "event": "context_ingested",
+          "provenance": "tool_verified",
+          "scope": "personal_state",
+          "step": 0
+        },
+        {
+          "event": "license_prediction",
+          "licenses": {
+            "evidence": 1,
+            "personalization": 1,
+            "presentation": 0
+          },
+          "method": "hybrid",
+          "step": 1
+        },
+        {
+          "blocked_by": [],
+          "event": "validity_gates",
+          "step": 2
+        },
+        {
+          "event": "state_verification",
+          "passed": true,
+          "score": 1.0,
+          "step": 3
+        }
+      ],
+      "trial_id": "TRIAL-HYBRID-PB-000006",
+      "weighted_score": 1.0
+    },
+    {
+      "graders": [
+        {
+          "detail": "Verify final presentation license against the frozen contract state.",
+          "expected": 0,
+          "name": "presentation_state_verification",
+          "observed": 0,
+          "passed": true,
+          "weight": 1.0
+        },
+        {
+          "detail": "Verify final personalization license against the frozen contract state.",
+          "expected": 0,
+          "name": "personalization_state_verification",
+          "observed": 0,
+          "passed": true,
+          "weight": 1.0
+        },
+        {
+          "detail": "Verify final evidence license against the frozen contract state.",
+          "expected": 1,
+          "name": "evidence_state_verification",
+          "observed": 0,
+          "passed": false,
+          "weight": 2.0
+        }
+      ],
+      "input_state": {
+        "confidence": 0.95,
+        "current": 1,
+        "provenance": "tool_verified",
+        "relevant": 1,
+        "scope": "world_claim",
+        "signal_content": "The connected record lists the budget limit as 11:30.",
+        "task_kind": "factual_world"
+      },
+      "passed": false,
+      "split": "ood_test",
+      "task_id": "PB-001827",
+      "trajectory": [
+        {
+          "event": "context_ingested",
+          "provenance": "tool_verified",
+          "scope": "world_claim",
+          "step": 0
+        },
+        {
+          "event": "license_prediction",
+          "licenses": {
+            "evidence": 0,
+            "personalization": 0,
+            "presentation": 0
+          },
+          "method": "hybrid",
+          "step": 1
+        },
+        {
+          "blocked_by": [],
+          "event": "validity_gates",
+          "step": 2
+        },
+        {
+          "event": "state_verification",
+          "passed": false,
+          "score": 0.5,
+          "step": 3
+        }
+      ],
+      "trial_id": "TRIAL-HYBRID-PB-001827",
+      "weighted_score": 0.5
+    }
+  ]
+}

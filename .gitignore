@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.egg-info/
+build/
+dist/
+# Generated portable Git-history evidence (kept in release, not tracked in its own history)
+artifacts/evidence/git/git-log.txt
+artifacts/evidence/git/personalized-not-persuaded-history.bundle

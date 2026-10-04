@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-009",
+  "name": "Conflicting-source authority subtest",
+  "status": "separate",
+  "hypothesis": "Authority selection among conflicting sources should be measured separately from standing classification.",
+  "setup": "Evaluate an explicit source-authority ranking on controlled conflict groups.",
+  "result": "The explicit ranking rule reaches 1.000 on the controlled in-domain and held-out conflict groups.",
+  "interpretation": "This is a distinct specification-level subproblem and should not inflate the learned-router claim.",
+  "next_decision": "Keep conflict ranking separate in the paper and code.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "controlled conflict subtest",
+  "source_artifacts": "results/provenancebench_method_summary.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

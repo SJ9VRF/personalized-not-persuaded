@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-001",
+  "name": "Naive personalization baseline",
+  "status": "rejected",
+  "hypothesis": "Using all personally relevant context should improve personalization without badly damaging epistemic behavior.",
+  "setup": "Evaluate the naive policy on the frozen ProvenanceBench splits.",
+  "result": "Domain-OOD exact=0.368, evidence uptake=1.000, unsupported leakage=0.857 (N=912).",
+  "interpretation": "Personal relevance was being treated too much like evidentiary authority.",
+  "next_decision": "Keep as a lower-bound baseline; separate relevance from evidence standing.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "canonical benchmark result",
+  "source_artifacts": "results/provenancebench_method_summary.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

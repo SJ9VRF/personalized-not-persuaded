@@ -1,0 +1,29 @@
+{
+  "by_split": {
+    "compositional_test": {
+      "mean_weighted_state_score": 0.9,
+      "n": 720,
+      "pass_rate": 0.8
+    },
+    "ood_test": {
+      "mean_weighted_state_score": 0.9736842105263158,
+      "n": 912,
+      "pass_rate": 0.9473684210526315
+    },
+    "provenance_intervention": {
+      "mean_weighted_state_score": 0.875,
+      "n": 800,
+      "pass_rate": 0.75
+    },
+    "test": {
+      "mean_weighted_state_score": 1.0,
+      "n": 168,
+      "pass_rate": 1.0
+    }
+  },
+  "interpretation": "Task/trial/grader/trajectory view of licensing behavior. State verification is against the frozen contract, not a claim of end-to-end generation quality.",
+  "mean_weighted_state_score": 0.9246153846153846,
+  "method": "hybrid",
+  "n_trials": 2600,
+  "pass_rate": 0.8492307692307692
+}

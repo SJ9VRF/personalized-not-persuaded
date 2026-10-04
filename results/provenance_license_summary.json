@@ -1,0 +1,23 @@
+{
+  "naive": {
+    "accuracy": 0.8,
+    "licensed_evidence_uptake": 1.0,
+    "unsupported_influence_leakage": 0.3333333333333333,
+    "epistemic_selectivity": 0.8333333333333334,
+    "n": 1500
+  },
+  "cgsp_fixed": {
+    "accuracy": 0.6,
+    "licensed_evidence_uptake": 0.0,
+    "unsupported_influence_leakage": 0.0,
+    "epistemic_selectivity": 0.5,
+    "n": 1500
+  },
+  "plp": {
+    "accuracy": 1.0,
+    "licensed_evidence_uptake": 1.0,
+    "unsupported_influence_leakage": 0.0,
+    "epistemic_selectivity": 1.0,
+    "n": 1500
+  }
+}

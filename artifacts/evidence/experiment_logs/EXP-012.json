@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-012",
+  "name": "Research-candidate gate",
+  "status": "passed",
+  "hypothesis": "The controlled router is mature enough for the next research stage without implying production readiness.",
+  "setup": "Apply fixed thresholds to ID/OOD/compositional exact, leakage, uptake, and trial-weighted state score.",
+  "result": "All controlled research-candidate checks pass; trial-weighted state score=0.9246.",
+  "interpretation": "The controlled system is reproducible enough for external-model/human validation next.",
+  "next_decision": "Freeze the controlled protocol; move the next scientific risk to real-model generation and human judgment.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "research-candidate gate",
+  "source_artifacts": "results/launch_gate.json",
+  "reproduction_command": "python scripts/launch_gate.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

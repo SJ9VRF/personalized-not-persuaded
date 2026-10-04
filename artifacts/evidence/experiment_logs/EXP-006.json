@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-006",
+  "name": "Matched provenance intervention",
+  "status": "diagnostic",
+  "hypothesis": "Changing only provenance should change the correct standing decision when provenance is causally relevant.",
+  "setup": "Evaluate 400 matched pairs / 800 examples with all non-provenance fields and surface text fixed.",
+  "result": "No-provenance exact=0.500; Learned/Hybrid=0.750; provenance-only=1.000.",
+  "interpretation": "Provenance is causally necessary on the isolated test, but learned transfer is incomplete.",
+  "next_decision": "Require this intervention in the canonical paper pipeline.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "matched causal diagnostic",
+  "source_artifacts": "datasets/provenance/provenance_intervention_test.csv; results/provenancebench_method_summary.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

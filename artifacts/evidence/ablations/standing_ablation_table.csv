@@ -1,0 +1,17 @@
+exact_license_match,evidence_uptake,unsupported_leakage,evidence_starvation,method,n,split
+0.7142857142857143,0.6666666666666666,0.0,0.3333333333333333,provenance_only,168,test
+1.0,1.0,0.0,0.0,learned_plp,168,test
+1.0,1.0,0.0,0.0,hybrid_plp,168,test
+0.9285714285714286,1.0,0.0909090909090909,0.0,learned_no_provenance,168,test
+0.6842105263157895,0.8,0.0714285714285714,0.1999999999999999,provenance_only,912,ood_test
+0.8421052631578947,0.8,0.1428571428571428,0.1999999999999999,learned_plp,912,ood_test
+0.9473684210526316,0.8,0.0,0.1999999999999999,hybrid_plp,912,ood_test
+0.9473684210526316,1.0,0.0714285714285714,0.0,learned_no_provenance,912,ood_test
+0.6,1.0,0.3333333333333333,0.0,provenance_only,720,compositional_test
+0.4,0.5,0.6666666666666666,0.5,learned_plp,720,compositional_test
+0.8,0.5,0.0,0.5,hybrid_plp,720,compositional_test
+1.0,1.0,0.0,0.0,learned_no_provenance,720,compositional_test
+1.0,1.0,0.0,0.0,provenance_only,800,provenance_intervention
+0.75,0.5,0.0,0.5,learned_plp,800,provenance_intervention
+0.75,0.5,0.0,0.5,hybrid_plp,800,provenance_intervention
+0.5,1.0,1.0,0.0,learned_no_provenance,800,provenance_intervention

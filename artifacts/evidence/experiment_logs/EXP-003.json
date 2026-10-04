@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-003",
+  "name": "Provenance-only rule",
+  "status": "partial",
+  "hypothesis": "Source provenance alone may be sufficient to decide evidentiary standing.",
+  "setup": "Apply a narrow explicit provenance rule across frozen splits.",
+  "result": "Domain-OOD exact=0.684, uptake=0.800, leakage=0.071; compositional exact=0.600.",
+  "interpretation": "Provenance matters but does not encode task relevance, freshness, or confidence by itself.",
+  "next_decision": "Learn task-conditioned standing rather than rely on source type alone.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "canonical benchmark result",
+  "source_artifacts": "results/provenancebench_method_summary.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}

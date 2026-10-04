@@ -1,0 +1,27 @@
+{
+  "canonical_source_of_truth": "results/provenancebench_method_summary.csv",
+  "bootstrap": {
+    "repetitions": 5000,
+    "seed": 11
+  },
+  "learned_router_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "splits": {
+    "test": 168,
+    "ood_test": 912,
+    "compositional_test": 720,
+    "provenance_intervention": 800
+  },
+  "post_training_mixture_seed": 17,
+  "claim_boundary": "controlled routing benchmark; no completed external-model generation or independent human-label claim"
+}

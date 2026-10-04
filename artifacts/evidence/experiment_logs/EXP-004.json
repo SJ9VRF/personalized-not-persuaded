@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-004",
+  "name": "Learned three-head PLP router",
+  "status": "revised",
+  "hypothesis": "A learned router can infer three standing channels and generalize beyond the training distribution.",
+  "setup": "Train three license heads with validation-only thresholds; evaluate ID/OOD/compositional/provenance splits.",
+  "result": "ID exact=1.000, domain-OOD=0.842, compositional=0.400, OOD leakage=0.143.",
+  "interpretation": "The learned decision surface fit ordinary held-out data but was brittle under structured shift.",
+  "next_decision": "Add small auditable validity constraints instead of hiding the failure with more capacity.",
+  "human_log": "evidence/EXPERIMENT_JOURNAL.md",
+  "evidence_type": "canonical benchmark result",
+  "source_artifacts": "results/provenancebench_method_summary.csv; results/provenancebench_predictions.csv",
+  "reproduction_command": "python scripts/provenancebench_learned.py",
+  "journal_provenance": "retrospective reconstruction from frozen outputs"
+}
